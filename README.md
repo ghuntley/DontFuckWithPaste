@@ -1,6 +1,5 @@
 # Don't fuck with copy and paste
 
-[![Don't Fuck With Paste - Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/dont-fuck-with-paste/nkgllhigpcljnhoakjkgaieabnkmgdkb)
 
 ## Background
 
@@ -13,7 +12,7 @@ paste into a text box.
 
 ## Solution
 
-This is a dead simple Google Chrome extension that removes copy and paste
+This is a dead simple Microsoft Edge extension that removes copy and paste
 blocking.
 
 ## Usage
@@ -30,20 +29,8 @@ After that, the extension icon should now be blue, meaning the extension is
 active for your current tab: ![active
 icon](https://raw.githubusercontent.com/jswanner/DontFuckWithPaste/73e5d11eba02213ae28ac0ced28f54a1d1af6a09/clipboard-active-32.png)
 
-## Version 2 Upgrade
+You can use https://jsfiddle.net/k04p7a2h/2/ verify that the extension is successfully installed.
 
-Version 2 is a major update to the extension. It makes it much easier to ensure
-the extension is only running on sites that are bad actors with copy & paste
-events and it also provides visibility into the active/inactive state of the
-extension for each tab.
-
-In order to provide the smoothest experience as possible, the extension needs
-to know when you change active tabs. In order for the extension to know about
-that event, it needs the `tabs` permission, which Chrome describes as "can read
-and change all your data on websites you visit." That description is very
-scary, and is certainly not what this extension is doing. Being an open-sourced
-project, you can always read all the code to see how this extension works, and
-what it's [not] doing with your data.
-
-To read more about the version 2 upgrade, see: [the wiki
-page](https://github.com/jswanner/DontFuckWithPaste/wiki/Version-2.0).
+# See Also
+- [Don't Fuck With Paste by Aaron Raimist](https://addons.mozilla.org/en-US/firefox/addon/don-t-fuck-with-paste/) for Mozilla
+- [Don't Fuck With Paste by Jacob Swanner](https://chrome.google.com/webstore/detail/dont-fuck-with-paste/nkgllhigpcljnhoakjkgaieabnkmgdkb) for Chrome
